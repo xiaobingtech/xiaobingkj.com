@@ -9,7 +9,7 @@ const NewGuestbookEmail = ({
   link = 'https://xiaobingkj.com/guestbook',
   userFirstName = '小兵',
   userLastName = '范',
-  userImageUrl = 'https://cali.so/icon.png',
+  userImageUrl = 'https://xiaobingkj.com/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
   link?: string | null

@@ -11,7 +11,7 @@ const NewReplyCommentEmail = ({
   postImageUrl = 'https://cn.zolplay.com/api/og?title=测试文章',
   userFirstName = '小兵',
   userLastName = '范',
-  userImageUrl = 'https://cali.so/icon.png',
+  userImageUrl = 'https://xiaobingkj.com/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
   postLink?: string | null
