@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
 import { SparkleIcon, UserSecurityIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
+// import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
 function Developer() {
@@ -81,7 +81,6 @@ export function Headline() {
       >
         <Balancer>
           Hi，我是范小兵，
-          {/* <PeekabooLink href="https://xiaobingkj.com">小兵</PeekabooLink> */}
           自认为是独立开发者，探寻极简创业之道，致力于持续创造出优秀作品，目前专注移动端应用开发，我热爱开发，喜欢创新和探索新事物，期待与大家有深度交流
         </Balancer>
       </motion.p>
