@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group inline-flex items-center">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>独立创客</span>
     </span>
   )
 }
@@ -80,10 +80,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          Hi，我是范小兵，
+          {/* <PeekabooLink href="https://xiaobingkj.com">小兵</PeekabooLink> */}
+          自认为是独立开发者，探寻极简创业之道，致力于持续创造出优秀作品，目前专注移动端应用开发，我热爱开发，喜欢创新和探索新事物，期待与大家有深度交流
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,33 +98,33 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://twitter.com/xiaobingfan"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
+          href="https://www.youtube.com/@fanxiaobing"
           aria-label="我的 YouTube"
           platform="youtube"
         />
         <SocialLink
-          href="https://cali.so/bilibili"
+          href="https://space.bilibili.com/14296206?spm_id_from=333.1007.0.0"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
         <SocialLink
-          href="https://cali.so/github"
+          href="https://github.com/xiaobingtech"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink
-          href="https://cali.so/tg"
+          href="https://t.me/fanxiaobing"
           aria-label="我的 Telegram"
           platform="telegram"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:developer@xiaobingkj.com"
           aria-label="我的邮箱"
           platform="mail"
         />

@@ -1,10 +1,10 @@
 export const seo = {
-  title: 'Cali Castle | 开发者、设计师、细节控、创始人',
+  title: '范小兵 | 独立开发者',
   description:
-    '我叫 Cali，一名开发者，设计师，细节控，同时也是佐玩创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。',
+    '我叫范小兵，自认为是独立开发者，探寻极简创业之道，致力于持续创造出优秀作品，目前专注移动端应用开发，我热爱开发，喜欢创新和探索新事物，期待与大家有深度交流',
   url: new URL(
     process.env.NODE_ENV === 'production'
-      ? 'https://cali.so'
+      ? 'https://xiaobingkj.com'
       : 'http://localhost:3000'
   ),
 } as const
