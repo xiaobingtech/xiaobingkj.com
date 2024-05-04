@@ -125,7 +125,7 @@ export async function Footer() {
                 </PeekabooLink>
                 <PeekabooLink href="https://beian.mps.gov.cn/">
                   鲁公网安备37011202002191号
-                </PeekabooLink
+                </PeekabooLink>
               </p>
               <Links />
             </div>
