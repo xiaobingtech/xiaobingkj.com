@@ -120,8 +120,12 @@ export async function Footer() {
                 <PeekabooLink href="https://github.com/CaliCastle/cali.so">
                   GitHub
                 </PeekabooLink>
-                鲁ICP备2024080492号-1
-                鲁公网安备37011202002191号
+                <PeekabooLink href="https://beian.miit.gov.cn/">
+                  鲁ICP备2024080492号-1
+                </PeekabooLink>
+                <PeekabooLink href="https://beian.mps.gov.cn/">
+                  鲁公网安备37011202002191号
+                </PeekabooLink
               </p>
               <Links />
             </div>
