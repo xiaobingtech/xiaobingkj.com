@@ -39,43 +39,43 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="范小兵"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
                 <Link
-                  href="https://cali.so"
+                  href="https://xiaobingkj.com"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>范小兵</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                独立开发者、创业、奶爸
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://cali.so/twitter"
+                  href="https://xiaobingkj.com/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/youtube"
+                  href="https://xiaobingkj.com/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/github"
+                  href="https://xiaobingkj.com/github"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/bilibili"
+                  href="https://xiaobingkj.com/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩

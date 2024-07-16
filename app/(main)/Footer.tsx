@@ -115,11 +115,18 @@ export async function Footer() {
               <Newsletter subCount={`${subs?.subCount ?? '0'}`} />
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-              <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} Cali Castle. 网站已开源：
-                <PeekabooLink href="https://github.com/CaliCastle/cali.so">
+              <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80 space-x-1">
+                &copy; {new Date().getFullYear()} 范小兵. 网站已开源：
+                <PeekabooLink href="https://github.com/xiaobingtech/xiaobingkj.com">
                   GitHub
                 </PeekabooLink>
+                <PeekabooLink href="https://beian.miit.gov.cn/">
+                鲁ICP备2024080492号-1
+                </PeekabooLink>
+                <PeekabooLink href="https://beian.miit.gov.cn/">
+                鲁公网安备37011202002191号
+                </PeekabooLink>
+                
               </p>
               <Links />
             </div>
