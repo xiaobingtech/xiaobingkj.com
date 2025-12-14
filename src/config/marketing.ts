@@ -3,16 +3,6 @@ import type { MarketingConfig } from "@/types";
 export const marketingConfig: MarketingConfig = {
   menus: [
     {
-      title: "Home2",
-      href: "/home2",
-      icon: "home",
-    },
-    {
-      title: "Home3",
-      href: "/home3",
-      icon: "home",
-    },
-    {
       title: "Search",
       href: "/search",
       icon: "search",
@@ -36,22 +26,6 @@ export const marketingConfig: MarketingConfig = {
       title: "Blog",
       href: "/blog",
       icon: "blog",
-    },
-    {
-      title: "Pricing",
-      href: "/pricing",
-      icon: "pricing",
-    },
-    {
-      title: "Submit",
-      href: "/submit",
-      icon: "submit",
-    },
-    {
-      title: "Studio",
-      href: "/studio",
-      icon: "studio",
-      external: true,
-    },
+    }
   ],
 };
